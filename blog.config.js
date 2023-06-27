@@ -169,18 +169,32 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: '天空之城',
+      artist: '久石让',
+      url: 'https://music.163.com/song/media/outer/url?id=864711417.mp3',
       cover:
-          'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+          'https://p2.music.126.net/d4Km-iVxvkjKeaeV7U-51w==/109951163394461179.jpg'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '卡农',
+      artist: 'Canon in D',
+      url: 'https://music.163.com/song/media/outer/url?id=478507889.mp3',
       cover:
-          'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+          'https://p1.music.126.net/fL7FAeRby1s7JreBqoOKjg==/109951165175371079.jpg'
+    },
+    {
+      name: '梁祝（钢琴曲）',
+      artist: '顾彬',
+      url: 'https://music.163.com/song/media/outer/url?id=1443714721.mp3',
+      cover:
+          'https://p2.music.126.net/4H0SO_iVzAl839EnE-IO1w==/109951166632235270.jpg'
+    },
+    {
+      name: '富士山下（纯钢琴）',
+      artist: '唐沐',
+      url: 'https://music.163.com/song/media/outer/url?id=1803373238.mp3',
+      cover:
+          'https://p2.music.126.net/wsU2weQJLuz0QnYe4ZEYvA==/109951164375016173.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
