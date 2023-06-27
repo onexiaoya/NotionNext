@@ -16,7 +16,7 @@ const CONFIG_MATERY = {
   POST_LIST_SUMMARY: false, // 文章摘要
   POST_LIST_PREVIEW: false, // 读取文章预览
 
-  ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
+  ARTICLE_ADJACENT: false, // 显示上一篇下一篇文章推荐
   ARTICLE_COPYRIGHT: true, // 显示文章版权声明
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
