@@ -13,15 +13,15 @@ const CONFIG_MATERY = {
   MENU_SEARCH: true, // 显示搜索
 
   POST_LIST_COVER: true, // 文章封面
-  POST_LIST_SUMMARY: false, // 文章摘要
+  POST_LIST_SUMMARY: true, // 文章摘要
   POST_LIST_PREVIEW: false, // 读取文章预览
 
   ARTICLE_ADJACENT: false, // 显示上一篇下一篇文章推荐
   ARTICLE_COPYRIGHT: true, // 显示文章版权声明
-  ARTICLE_RECOMMEND: true, // 文章关联推荐
+  ARTICLE_RECOMMEND: false, // 文章关联推荐
 
-  WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  WIDGET_ANALYTICS: false, // 显示统计卡
+  WIDGET_LATEST_POSTS: false, // 显示最新文章卡
+  WIDGET_ANALYTICS: true, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
