@@ -1,5 +1,5 @@
 import BLOG from '@/blog.config'
-import BlogPostListPage from '@/themes/Fukasawa/components/BlogPostListPage'
+import BlogPostListPage from '@/themes/fukasawa/components/BlogPostListPage'
 import BlogPostListScroll from './components/BlogPostListScroll'
 import Header from './components/Header'
 import CONFIG_HEXO from './config_hexo'
