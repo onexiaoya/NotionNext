@@ -1,5 +1,5 @@
 import BlogPostListScroll from './components/BlogPostListScroll'
-import BlogPostListPage from '@/themes/matery/components/BlogPostListPage'
+import BlogPostListPage from '@/themes/Fukasawa/components/BlogPostListPage'
 import LayoutBase from './LayoutBase'
 import BLOG from '@/blog.config'
 
